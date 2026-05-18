@@ -185,5 +185,6 @@ Output directive underscore trim closing
 ---
 
 (template
+  (content)
   (output_directive (code))
   (content))
