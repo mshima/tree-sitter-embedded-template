@@ -127,6 +127,7 @@ Empty directives
 <%-%>
 <%--%>
 <%-=%>
+<%-_%>
 <%#%>
 <%graphql%>
 <%|%>
@@ -163,6 +164,8 @@ Empty directives
   (content)
   (output_directive)
   (content)
+  (output_directive)
+  (content)
   (comment_directive)
   (content)
   (graphql_directive)
@@ -175,16 +178,3 @@ Empty directives
   (content)
   (directive)
 )
-
-=========================================
-Output directive underscore trim closing
-=========================================
-
-<%- foo _%>
-
----
-
-(template
-  (content)
-  (output_directive (code))
-  (content))
