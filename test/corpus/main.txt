@@ -175,3 +175,15 @@ Empty directives
   (content)
   (directive)
 )
+
+=========================================
+Output directive underscore trim closing
+=========================================
+
+<%- foo _%>
+
+---
+
+(template
+  (output_directive (code))
+  (content))
